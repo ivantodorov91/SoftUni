@@ -22,8 +22,8 @@ namespace Mountains_Code_First
         [Required]
         public string Name { get; set; }
 
-        public ICollection<Country> Countries { get; set; }
+        public virtual ICollection<Country> Countries { get; set; }
 
-        public ICollection<Peak> Peaks { get; set; }
+        public virtual ICollection<Peak> Peaks { get; set; }
     }
 }
